@@ -5,7 +5,7 @@ jobs:
       # nodeのバージョンを上げておく
       - image: circleci/node:8.9.4
 
-    working_directory: ~/repo
+    working_directory: ~/test
 
     steps:
       - checkout
