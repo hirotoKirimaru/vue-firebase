@@ -3,9 +3,9 @@ jobs:
   build:
     docker:
       # nodeのバージョンを上げておく
-      - image: circleci/node:8.9.4
+      - image: circleci/node:8.10.0
 
-    working_directory: ~/repo
+    working_directory: ~/test
 
     steps:
       - checkout
